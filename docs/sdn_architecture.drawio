@@ -1,0 +1,112 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="V_NAa7WEudzPBHC5Od81">
+    <mxGraphModel dx="1988" dy="2098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nC6XM4XM5TMfjJDZNpjs-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;OS-Ken Controller&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;(controller.py)&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;• OpenFlow 1.3&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;• Learning switch&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;• Handles Packet-In&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;• Installs Flow-Mod rules&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="160" width="280" x="380" y="-10" as="geometry" />
+        </mxCell>
+        <mxCell id="nC6XM4XM5TMfjJDZNpjs-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;OVS Switch s1&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;(Mininet)&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="280" x="380" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="nC6XM4XM5TMfjJDZNpjs-12" edge="1" parent="1" source="nC6XM4XM5TMfjJDZNpjs-1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;strokeWidth=3;startArrow=classic;startFill=1;" target="nC6XM4XM5TMfjJDZNpjs-2" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="260" as="sourcePoint" />
+            <mxPoint x="540" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nC6XM4XM5TMfjJDZNpjs-41" connectable="0" parent="nC6XM4XM5TMfjJDZNpjs-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="OpenFlow 1.3" vertex="1">
+          <mxGeometry relative="1" x="-0.0111" y="1" as="geometry">
+            <mxPoint x="-1" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nC6XM4XM5TMfjJDZNpjs-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;h1 (Client)&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;10.0.0.1&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;client.py&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="130" x="260" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="nC6XM4XM5TMfjJDZNpjs-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;h3 (Client)&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;10.0.0.3&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;client.py&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="130" x="660" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="nC6XM4XM5TMfjJDZNpjs-18" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;curved=0;endFill=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.2888" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="480" />
+            </Array>
+            <mxPoint x="460" y="440" as="sourcePoint" />
+            <mxPoint x="320" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nC6XM4XM5TMfjJDZNpjs-20" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="320" y="480" as="sourcePoint" />
+            <mxPoint x="320" y="535" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nC6XM4XM5TMfjJDZNpjs-21" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;curved=0;endFill=1;entryX=0.454;entryY=-0.031;entryDx=0;entryDy=0;entryPerimeter=0;" target="nC6XM4XM5TMfjJDZNpjs-16" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.2798" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="480" />
+              <mxPoint x="720" y="480" />
+            </Array>
+            <mxPoint x="580" y="440" as="sourcePoint" />
+            <mxPoint x="720" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nC6XM4XM5TMfjJDZNpjs-22" edge="1" parent="1" style="endArrow=classic;html=1;strokeWidth=1;rounded=0;endFill=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="320" y="680" as="sourcePoint" />
+            <mxPoint x="320" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nC6XM4XM5TMfjJDZNpjs-23" edge="1" parent="1" style="endArrow=classic;html=1;strokeWidth=1;rounded=0;startArrow=none;startFill=0;endFill=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="720" y="680" as="sourcePoint" />
+            <mxPoint x="720" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nC6XM4XM5TMfjJDZNpjs-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="TCP : 5000" vertex="1">
+          <mxGeometry height="30" width="70" x="352.5" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="nC6XM4XM5TMfjJDZNpjs-26" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;endFill=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="580" y="680" as="sourcePoint" />
+            <mxPoint x="580" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nC6XM4XM5TMfjJDZNpjs-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#A20025,#B266FF);fontColor=#ffffff;strokeColor=#6F0000;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;h2 (Server)&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;10.0.0.2&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;server.py&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;TCP : 5000&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;shared_files/&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="197.5" x="421.25" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="nC6XM4XM5TMfjJDZNpjs-31" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;startArrow=none;startFill=0;endFill=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="460" y="680" as="sourcePoint" />
+            <mxPoint x="460" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nC6XM4XM5TMfjJDZNpjs-33" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="320" y="680" as="sourcePoint" />
+            <mxPoint x="460" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nC6XM4XM5TMfjJDZNpjs-34" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="580" y="680" as="sourcePoint" />
+            <mxPoint x="720" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nC6XM4XM5TMfjJDZNpjs-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="TCP : 5000" vertex="1">
+          <mxGeometry height="30" width="70" x="630" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="nC6XM4XM5TMfjJDZNpjs-36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;align=center;fillColor=#ffff88;strokeColor=#36393d;" value="&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;How it works&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;1. Clients h1 and h3 connect to server h2 using TCP port 5000.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;2. OVS switch forwards traffic between the Mininet hosts.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;3. Unknown traffic generates Packet-In messages to the controller.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;4. OS-Ken learns MAC addresses and installs Flow-Mod rules.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;5. Server handles multiple clients using threads.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;6. Clients can LIST and DOWNLOAD files from shared_files/.&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="370" width="560" x="250" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="nC6XM4XM5TMfjJDZNpjs-38" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#B20000;fillColor=#e51400;align=center;verticalAlign=middle;rounded=0;fontColor=#ffffff;" value="Flow-Mod" vertex="1">
+          <mxGeometry height="30" width="60" x="530" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="nC6XM4XM5TMfjJDZNpjs-37" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#006EAF;fillColor=#1ba1e2;align=center;verticalAlign=middle;rounded=0;fontColor=#ffffff;" value="Packet in" vertex="1">
+          <mxGeometry height="30" width="60" x="530" y="180" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
